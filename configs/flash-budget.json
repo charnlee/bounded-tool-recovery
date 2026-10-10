@@ -1,0 +1,10 @@
+{
+  "currency": "USD",
+  "limit": 100,
+  "local_stop_threshold_usd": 90,
+  "model": "deepseek-flash",
+  "conservative_usd_per_million": {"all_input": 0.30, "all_output": 1.20},
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "pricing_checked": "2026-10-09",
+  "note": "Peak uncached rates for all usage; same SQLite requests ledger as historical Luna. Stage ceilings enforced by FlashBudget."
+}

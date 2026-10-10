@@ -1,0 +1,182 @@
+{
+  "status": "passed",
+  "batch_status": "complete",
+  "n": 504,
+  "replayed": 504,
+  "unique_requests": 2313,
+  "summaries": [
+    {
+      "method": "full",
+      "cap": 1024,
+      "n": 168,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 1,
+        "goal": 165,
+        "history_exact": 165,
+        "missing_items": 3,
+        "model_errors": 0,
+        "model_latency_seconds": 1106.9695038744248,
+        "model_requests": 1117,
+        "scts": 108,
+        "ticks": 3511,
+        "tool_calls": 1344,
+        "total_tokens": 1863562
+      },
+      "failures": {
+        "decision_budget_exhausted": 59,
+        "complete": 1
+      },
+      "evidence_compute_seconds": 0.22471302328631282
+    },
+    {
+      "method": "query_first_rule",
+      "cap": 0,
+      "n": 56,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 810,
+        "tool_calls": 476,
+        "total_tokens": 0
+      },
+      "failures": {
+        "decision_budget_exhausted": 24
+      },
+      "evidence_compute_seconds": 0.0
+    },
+    {
+      "method": "raw",
+      "cap": 1024,
+      "n": 168,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 13,
+        "goal": 136,
+        "history_exact": 136,
+        "missing_items": 77,
+        "model_errors": 2,
+        "model_latency_seconds": 1407.6648516152054,
+        "model_requests": 1196,
+        "scts": 91,
+        "ticks": 3865,
+        "tool_calls": 1426,
+        "total_tokens": 1346257
+      },
+      "failures": {
+        "complete": 13,
+        "decision_budget_exhausted": 62,
+        "model_error": 2
+      },
+      "evidence_compute_seconds": 0.1240219222381711
+    },
+    {
+      "method": "verified_mechanism",
+      "cap": 0,
+      "n": 56,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "failures": {
+        "decision_budget_exhausted": 24
+      },
+      "evidence_compute_seconds": 0.0
+    },
+    {
+      "method": "wait_rule",
+      "cap": 0,
+      "n": 56,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "failures": {
+        "decision_budget_exhausted": 24
+      },
+      "evidence_compute_seconds": 0.0
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 168,
+      "clusters": 8,
+      "difference": 0.10119047619047619,
+      "ci95": [
+        0.02976190476190476,
+        0.19047619047619047
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 168,
+      "clusters": 8,
+      "difference": 0.17261904761904762,
+      "ci95": [
+        0.07738095238095238,
+        0.26190476190476186
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 168,
+      "clusters": 8,
+      "difference": 3079.1964285714284,
+      "ci95": [
+        2000.529761904762,
+        3965.3214285714284
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 168,
+      "clusters": 8,
+      "difference": -0.4880952380952381,
+      "ci95": [
+        -0.9940476190476191,
+        -0.053571428571428575
+      ]
+    }
+  ],
+  "scope": "Conditional instance-cluster intervals within fixed task grammars; no population or model-generalization claim."
+}

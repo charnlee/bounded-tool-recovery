@@ -1,0 +1,2195 @@
+{
+  "contrasts": [
+    {
+      "ci95": [
+        0.0,
+        0.04464285714285714
+      ],
+      "clusters": 16,
+      "difference": 0.017857142857142856,
+      "field": "method",
+      "left": "computed",
+      "metric": "scts",
+      "n_pairs": 112,
+      "right": "restated"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.04464285714285714
+      ],
+      "clusters": 16,
+      "difference": 0.017857142857142856,
+      "field": "method",
+      "left": "computed",
+      "metric": "goal",
+      "n_pairs": 112,
+      "right": "restated"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.04464285714285714
+      ],
+      "clusters": 16,
+      "difference": 0.017857142857142856,
+      "field": "method",
+      "left": "computed",
+      "metric": "declaration_correct_now",
+      "n_pairs": 112,
+      "right": "restated"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.04464285714285714
+      ],
+      "clusters": 16,
+      "difference": 0.017857142857142856,
+      "field": "method",
+      "left": "computed",
+      "metric": "declaration_justified",
+      "n_pairs": 112,
+      "right": "restated"
+    },
+    {
+      "ci95": [
+        8.571428571428548,
+        681.4732142857143
+      ],
+      "clusters": 16,
+      "difference": 334.5267857142857,
+      "field": "method",
+      "left": "computed",
+      "metric": "total_tokens",
+      "n_pairs": 112,
+      "right": "restated"
+    },
+    {
+      "ci95": [
+        -0.21428571428571427,
+        0.125
+      ],
+      "clusters": 8,
+      "difference": -0.03571428571428571,
+      "field": "regime",
+      "left": "terminal",
+      "method": "raw",
+      "metric": "scts",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        -0.19642857142857142,
+        0.10714285714285714
+      ],
+      "clusters": 8,
+      "difference": -0.03571428571428571,
+      "field": "regime",
+      "left": "terminal",
+      "method": "raw",
+      "metric": "goal",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        -0.21428571428571427,
+        0.125
+      ],
+      "clusters": 8,
+      "difference": -0.03571428571428571,
+      "field": "regime",
+      "left": "terminal",
+      "method": "raw",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        -0.125,
+        0.0
+      ],
+      "clusters": 8,
+      "difference": -0.05357142857142857,
+      "field": "regime",
+      "left": "terminal",
+      "method": "raw",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        788.9821428571429,
+        1188.142857142857
+      ],
+      "clusters": 8,
+      "difference": 989.7142857142857,
+      "field": "regime",
+      "left": "terminal",
+      "method": "raw",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.07142857142857142,
+        0.4107142857142857
+      ],
+      "clusters": 8,
+      "difference": 0.25,
+      "field": "regime",
+      "left": "expanded",
+      "method": "raw",
+      "metric": "scts",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.03571428571428571,
+        0.23214285714285712
+      ],
+      "clusters": 8,
+      "difference": 0.14285714285714285,
+      "field": "regime",
+      "left": "expanded",
+      "method": "raw",
+      "metric": "goal",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.07142857142857142,
+        0.4107142857142857
+      ],
+      "clusters": 8,
+      "difference": 0.25,
+      "field": "regime",
+      "left": "expanded",
+      "method": "raw",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.19642857142857142,
+        0.4464285714285714
+      ],
+      "clusters": 8,
+      "difference": 0.3214285714285714,
+      "field": "regime",
+      "left": "expanded",
+      "method": "raw",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        2393.6428571428573,
+        3070.0714285714284
+      ],
+      "clusters": 8,
+      "difference": 2757.1964285714284,
+      "field": "regime",
+      "left": "expanded",
+      "method": "raw",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.125,
+        0.375
+      ],
+      "clusters": 8,
+      "difference": 0.25,
+      "field": "regime",
+      "left": "terminal",
+      "method": "full",
+      "metric": "scts",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 8,
+      "difference": 0.0,
+      "field": "regime",
+      "left": "terminal",
+      "method": "full",
+      "metric": "goal",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.125,
+        0.375
+      ],
+      "clusters": 8,
+      "difference": 0.25,
+      "field": "regime",
+      "left": "terminal",
+      "method": "full",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.03571428571428571,
+        0.26785714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.1607142857142857,
+      "field": "regime",
+      "left": "terminal",
+      "method": "full",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        437.89285714285717,
+        1277.0714285714287
+      ],
+      "clusters": 8,
+      "difference": 847.375,
+      "field": "regime",
+      "left": "terminal",
+      "method": "full",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.1607142857142857,
+        0.46428571428571425
+      ],
+      "clusters": 8,
+      "difference": 0.3214285714285714,
+      "field": "regime",
+      "left": "expanded",
+      "method": "full",
+      "metric": "scts",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.05357142857142857
+      ],
+      "clusters": 8,
+      "difference": 0.017857142857142856,
+      "field": "regime",
+      "left": "expanded",
+      "method": "full",
+      "metric": "goal",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.1607142857142857,
+        0.46428571428571425
+      ],
+      "clusters": 8,
+      "difference": 0.3214285714285714,
+      "field": "regime",
+      "left": "expanded",
+      "method": "full",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.21428571428571427,
+        0.5535714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.4107142857142857,
+      "field": "regime",
+      "left": "expanded",
+      "method": "full",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        725.8214285714286,
+        1731.1607142857142
+      ],
+      "clusters": 8,
+      "difference": 1239.0535714285713,
+      "field": "regime",
+      "left": "expanded",
+      "method": "full",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "right": "original",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.017857142857142856,
+        0.14285714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.07142857142857142,
+      "field": "method",
+      "left": "full",
+      "metric": "scts",
+      "n_pairs": 56,
+      "regime": "original",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.07142857142857142,
+        0.19642857142857142
+      ],
+      "clusters": 8,
+      "difference": 0.14285714285714285,
+      "field": "method",
+      "left": "full",
+      "metric": "goal",
+      "n_pairs": 56,
+      "regime": "original",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.017857142857142856,
+        0.14285714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.07142857142857142,
+      "field": "method",
+      "left": "full",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "regime": "original",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.125
+      ],
+      "clusters": 8,
+      "difference": 0.05357142857142857,
+      "field": "method",
+      "left": "full",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "regime": "original",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        2001.857142857143,
+        3920.464285714286
+      ],
+      "clusters": 8,
+      "difference": 3043.5535714285716,
+      "field": "method",
+      "left": "full",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "regime": "original",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.25,
+        0.4464285714285714
+      ],
+      "clusters": 8,
+      "difference": 0.3571428571428571,
+      "field": "method",
+      "left": "full",
+      "metric": "scts",
+      "n_pairs": 56,
+      "regime": "terminal",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.08928571428571427,
+        0.26785714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.17857142857142855,
+      "field": "method",
+      "left": "full",
+      "metric": "goal",
+      "n_pairs": 56,
+      "regime": "terminal",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.25,
+        0.4464285714285714
+      ],
+      "clusters": 8,
+      "difference": 0.3571428571428571,
+      "field": "method",
+      "left": "full",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "regime": "terminal",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.14285714285714285,
+        0.375
+      ],
+      "clusters": 8,
+      "difference": 0.26785714285714285,
+      "field": "method",
+      "left": "full",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "regime": "terminal",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        1422.607142857143,
+        4064.5714285714284
+      ],
+      "clusters": 8,
+      "difference": 2901.214285714286,
+      "field": "method",
+      "left": "full",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "regime": "terminal",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.03571428571428571,
+        0.26785714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.14285714285714285,
+      "field": "method",
+      "left": "full",
+      "metric": "scts",
+      "n_pairs": 56,
+      "regime": "expanded",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.0,
+        0.05357142857142857
+      ],
+      "clusters": 8,
+      "difference": 0.017857142857142856,
+      "field": "method",
+      "left": "full",
+      "metric": "goal",
+      "n_pairs": 56,
+      "regime": "expanded",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.03571428571428571,
+        0.26785714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.14285714285714285,
+      "field": "method",
+      "left": "full",
+      "metric": "declaration_correct_now",
+      "n_pairs": 56,
+      "regime": "expanded",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        0.03571428571428571,
+        0.26785714285714285
+      ],
+      "clusters": 8,
+      "difference": 0.14285714285714285,
+      "field": "method",
+      "left": "full",
+      "metric": "declaration_justified",
+      "n_pairs": 56,
+      "regime": "expanded",
+      "right": "raw",
+      "study": "budget"
+    },
+    {
+      "ci95": [
+        288.62500000000006,
+        2462.9821428571427
+      ],
+      "clusters": 8,
+      "difference": 1525.4107142857142,
+      "field": "method",
+      "left": "full",
+      "metric": "total_tokens",
+      "n_pairs": 56,
+      "regime": "expanded",
+      "right": "raw",
+      "study": "budget"
+    }
+  ],
+  "errors": {
+    "HTTPError": 2,
+    "non_stop_finish": 1
+  },
+  "fingerprints": {
+    "None": 2,
+    "aeb56401ca74e127821c4f9126dcb669": 3483
+  },
+  "historical": [
+    {
+      "decisions": {
+        "complete": 224
+      },
+      "input_tokens": 0,
+      "method": "full",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 224,
+        "history_exact": 224,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 1003.8761049853638,
+        "model_requests": 1086,
+        "scts": 224,
+        "ticks": 3272,
+        "tool_calls": 1310,
+        "total_tokens": 1647643
+      },
+      "n": 224,
+      "stage": "cap",
+      "terminal_metrics": {
+        "declaration_correct_now": 224,
+        "declaration_justified": 224,
+        "premature_declaration": 0,
+        "terminal_goal": 224,
+        "terminal_history_exact": 224,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "abstain": 3,
+        "complete": 216,
+        "decision_budget_exhausted": 1,
+        "model_error": 4
+      },
+      "input_tokens": 0,
+      "method": "raw",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 2,
+        "goal": 218,
+        "history_exact": 218,
+        "missing_items": 14,
+        "model_errors": 4,
+        "model_latency_seconds": 1221.3931122659706,
+        "model_requests": 1278,
+        "scts": 214,
+        "ticks": 4414,
+        "tool_calls": 1503,
+        "total_tokens": 1379472
+      },
+      "n": 224,
+      "stage": "cap",
+      "terminal_metrics": {
+        "declaration_correct_now": 214,
+        "declaration_justified": 208,
+        "premature_declaration": 0,
+        "terminal_goal": 218,
+        "terminal_history_exact": 218,
+        "terminal_pending": 0,
+        "unjustified_declaration": 8
+      }
+    },
+    {
+      "decisions": {
+        "complete": 224
+      },
+      "input_tokens": 0,
+      "method": "timing",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 12,
+        "goal": 212,
+        "history_exact": 212,
+        "missing_items": 42,
+        "model_errors": 0,
+        "model_latency_seconds": 1009.7674007948954,
+        "model_requests": 1069,
+        "scts": 212,
+        "ticks": 3500,
+        "tool_calls": 1293,
+        "total_tokens": 1497093
+      },
+      "n": 224,
+      "stage": "cap",
+      "terminal_metrics": {
+        "declaration_correct_now": 212,
+        "declaration_justified": 212,
+        "premature_declaration": 0,
+        "terminal_goal": 212,
+        "terminal_history_exact": 212,
+        "terminal_pending": 0,
+        "unjustified_declaration": 12
+      }
+    },
+    {
+      "decisions": {
+        "complete": 109,
+        "decision_budget_exhausted": 59
+      },
+      "input_tokens": 0,
+      "method": "full",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 1,
+        "goal": 165,
+        "history_exact": 165,
+        "missing_items": 3,
+        "model_errors": 0,
+        "model_latency_seconds": 1106.9695038744248,
+        "model_requests": 1117,
+        "scts": 108,
+        "ticks": 3511,
+        "tool_calls": 1344,
+        "total_tokens": 1863562
+      },
+      "n": 168,
+      "stage": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 108,
+        "declaration_justified": 96,
+        "premature_declaration": 0,
+        "terminal_goal": 165,
+        "terminal_history_exact": 165,
+        "terminal_pending": 0,
+        "unjustified_declaration": 13
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 810,
+        "tool_calls": 476,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "stage": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 104,
+        "decision_budget_exhausted": 62,
+        "model_error": 2
+      },
+      "input_tokens": 0,
+      "method": "raw",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 13,
+        "goal": 136,
+        "history_exact": 136,
+        "missing_items": 77,
+        "model_errors": 2,
+        "model_latency_seconds": 1407.6648516152054,
+        "model_requests": 1196,
+        "scts": 91,
+        "ticks": 3865,
+        "tool_calls": 1426,
+        "total_tokens": 1346257
+      },
+      "n": 168,
+      "stage": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 91,
+        "declaration_justified": 84,
+        "premature_declaration": 0,
+        "terminal_goal": 136,
+        "terminal_history_exact": 136,
+        "terminal_pending": 0,
+        "unjustified_declaration": 20
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "stage": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "stage": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 336
+      },
+      "input_tokens": 0,
+      "method": "full",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 336,
+        "history_exact": 336,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 1466.7348610756453,
+        "model_requests": 1481,
+        "scts": 336,
+        "ticks": 4288,
+        "tool_calls": 1817,
+        "total_tokens": 2254908
+      },
+      "n": 336,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 336,
+        "declaration_justified": 336,
+        "premature_declaration": 0,
+        "terminal_goal": 336,
+        "terminal_history_exact": 336,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "abstain": 4,
+        "complete": 315,
+        "decision_budget_exhausted": 7,
+        "model_error": 10
+      },
+      "input_tokens": 0,
+      "method": "organized",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 16,
+        "goal": 311,
+        "history_exact": 311,
+        "missing_items": 79,
+        "model_errors": 10,
+        "model_latency_seconds": 1880.0910363690928,
+        "model_requests": 1747,
+        "scts": 299,
+        "ticks": 5289,
+        "tool_calls": 2090,
+        "total_tokens": 2428912
+      },
+      "n": 336,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 299,
+        "declaration_justified": 290,
+        "premature_declaration": 0,
+        "terminal_goal": 310,
+        "terminal_history_exact": 310,
+        "terminal_pending": 1,
+        "unjustified_declaration": 25
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "abstain": 4,
+        "complete": 328,
+        "decision_budget_exhausted": 3,
+        "model_error": 1
+      },
+      "input_tokens": 0,
+      "method": "raw",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 4,
+        "goal": 330,
+        "history_exact": 330,
+        "missing_items": 14,
+        "model_errors": 1,
+        "model_latency_seconds": 1864.389102373505,
+        "model_requests": 1805,
+        "scts": 324,
+        "ticks": 5763,
+        "tool_calls": 2144,
+        "total_tokens": 1950588
+      },
+      "n": 336,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 324,
+        "declaration_justified": 320,
+        "premature_declaration": 0,
+        "terminal_goal": 330,
+        "terminal_history_exact": 330,
+        "terminal_pending": 0,
+        "unjustified_declaration": 8
+      }
+    },
+    {
+      "decisions": {
+        "complete": 335,
+        "model_error": 1
+      },
+      "input_tokens": 0,
+      "method": "timing",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 22,
+        "goal": 313,
+        "history_exact": 313,
+        "missing_items": 86,
+        "model_errors": 1,
+        "model_latency_seconds": 1531.6476397139486,
+        "model_requests": 1513,
+        "scts": 313,
+        "ticks": 4638,
+        "tool_calls": 1849,
+        "total_tokens": 2136424
+      },
+      "n": 336,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 313,
+        "declaration_justified": 313,
+        "premature_declaration": 0,
+        "terminal_goal": 313,
+        "terminal_history_exact": 313,
+        "terminal_pending": 0,
+        "unjustified_declaration": 22
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "stage": "main",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    }
+  ],
+  "historical_replayed": 2856,
+  "live": [
+    {
+      "decisions": {
+        "complete": 55,
+        "model_error": 1
+      },
+      "input_tokens": 659140,
+      "method": "full",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 1,
+        "model_latency_seconds": 389.91243929835036,
+        "model_requests": 400,
+        "scts": 55,
+        "ticks": 1181,
+        "tool_calls": 456,
+        "total_tokens": 690399
+      },
+      "n": 56,
+      "regime": "expanded",
+      "study": "budget",
+      "terminal_metrics": {
+        "declaration_correct_now": 55,
+        "declaration_justified": 55,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 47,
+        "decision_budget_exhausted": 8,
+        "model_error": 1
+      },
+      "input_tokens": 565806,
+      "method": "raw",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 55,
+        "history_exact": 55,
+        "missing_items": 2,
+        "model_errors": 1,
+        "model_latency_seconds": 499.31275886739604,
+        "model_requests": 505,
+        "scts": 47,
+        "ticks": 1763,
+        "tool_calls": 569,
+        "total_tokens": 604976
+      },
+      "n": 56,
+      "regime": "expanded",
+      "study": "budget",
+      "terminal_metrics": {
+        "declaration_correct_now": 47,
+        "declaration_justified": 47,
+        "premature_declaration": 0,
+        "terminal_goal": 55,
+        "terminal_history_exact": 55,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 37,
+        "decision_budget_exhausted": 19
+      },
+      "input_tokens": 592171,
+      "method": "full",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 55,
+        "history_exact": 55,
+        "missing_items": 1,
+        "model_errors": 0,
+        "model_latency_seconds": 361.30793938599527,
+        "model_requests": 372,
+        "scts": 37,
+        "ticks": 1171,
+        "tool_calls": 447,
+        "total_tokens": 621012
+      },
+      "n": 56,
+      "regime": "original",
+      "study": "budget",
+      "terminal_metrics": {
+        "declaration_correct_now": 37,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 55,
+        "terminal_history_exact": 55,
+        "terminal_pending": 0,
+        "unjustified_declaration": 5
+      }
+    },
+    {
+      "decisions": {
+        "abstain": 1,
+        "complete": 39,
+        "decision_budget_exhausted": 16
+      },
+      "input_tokens": 419506,
+      "method": "raw",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 6,
+        "goal": 47,
+        "history_exact": 47,
+        "missing_items": 20,
+        "model_errors": 0,
+        "model_latency_seconds": 456.2927240503486,
+        "model_requests": 400,
+        "scts": 33,
+        "ticks": 1252,
+        "tool_calls": 472,
+        "total_tokens": 450573
+      },
+      "n": 56,
+      "regime": "original",
+      "study": "budget",
+      "terminal_metrics": {
+        "declaration_correct_now": 33,
+        "declaration_justified": 29,
+        "premature_declaration": 0,
+        "terminal_goal": 47,
+        "terminal_history_exact": 47,
+        "terminal_pending": 0,
+        "unjustified_declaration": 10
+      }
+    },
+    {
+      "decisions": {
+        "abstain": 4,
+        "complete": 52
+      },
+      "input_tokens": 637530,
+      "method": "full",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 1,
+        "goal": 55,
+        "history_exact": 55,
+        "missing_items": 1,
+        "model_errors": 0,
+        "model_latency_seconds": 378.5758194620721,
+        "model_requests": 389,
+        "scts": 51,
+        "ticks": 1167,
+        "tool_calls": 445,
+        "total_tokens": 668465
+      },
+      "n": 56,
+      "regime": "terminal",
+      "study": "budget",
+      "terminal_metrics": {
+        "declaration_correct_now": 51,
+        "declaration_justified": 41,
+        "premature_declaration": 0,
+        "terminal_goal": 55,
+        "terminal_history_exact": 55,
+        "terminal_pending": 0,
+        "unjustified_declaration": 11
+      }
+    },
+    {
+      "decisions": {
+        "abstain": 20,
+        "complete": 35,
+        "model_error": 1
+      },
+      "input_tokens": 470736,
+      "method": "raw",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 4,
+        "goal": 45,
+        "history_exact": 45,
+        "missing_items": 25,
+        "model_errors": 1,
+        "model_latency_seconds": 429.79984423471615,
+        "model_requests": 431,
+        "scts": 31,
+        "ticks": 1412,
+        "tool_calls": 487,
+        "total_tokens": 505997
+      },
+      "n": 56,
+      "regime": "terminal",
+      "study": "budget",
+      "terminal_metrics": {
+        "declaration_correct_now": 31,
+        "declaration_justified": 26,
+        "premature_declaration": 0,
+        "terminal_goal": 45,
+        "terminal_history_exact": 45,
+        "terminal_pending": 0,
+        "unjustified_declaration": 9
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 734705,
+      "method": "computed",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 477.0754589952994,
+        "model_requests": 504,
+        "scts": 112,
+        "ticks": 1493,
+        "tool_calls": 616,
+        "total_tokens": 771913
+      },
+      "n": 112,
+      "regime": "original",
+      "study": "representation",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 694316,
+      "method": "restated",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 2,
+        "goal": 110,
+        "history_exact": 110,
+        "missing_items": 8,
+        "model_errors": 0,
+        "model_latency_seconds": 486.44714254443534,
+        "model_requests": 484,
+        "scts": 110,
+        "ticks": 1591,
+        "tool_calls": 596,
+        "total_tokens": 734446
+      },
+      "n": 112,
+      "regime": "original",
+      "study": "representation",
+      "terminal_metrics": {
+        "declaration_correct_now": 110,
+        "declaration_justified": 110,
+        "premature_declaration": 0,
+        "terminal_goal": 110,
+        "terminal_history_exact": 110,
+        "terminal_pending": 0,
+        "unjustified_declaration": 2
+      }
+    }
+  ],
+  "matched_input_audit": {
+    "all_potential_input_pairs_equal_bytes": true,
+    "by_method": {
+      "computed": {
+        "mean_input_bytes": 2397.9821428571427,
+        "mean_input_tokens": 1457.748015873016
+      },
+      "restated": {
+        "mean_input_bytes": 2380.4194214876034,
+        "mean_input_tokens": 1434.5371900826447
+      }
+    },
+    "requests": 988,
+    "token_matching": "Not guaranteed; tail whitespace does not equate tokenizer counts."
+  },
+  "offline": [
+    {
+      "decisions": {
+        "complete": 56
+      },
+      "input_tokens": 0,
+      "method": "item_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 56,
+        "ticks": 846,
+        "tool_calls": 512,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "expanded",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 56,
+        "declaration_justified": 56,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 56
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 56,
+        "ticks": 930,
+        "tool_calls": 532,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "expanded",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 56,
+        "declaration_justified": 56,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 56
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 56,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "expanded",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 56,
+        "declaration_justified": 56,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 56
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 56,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "expanded",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 56,
+        "declaration_justified": 56,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 38,
+        "decision_budget_exhausted": 18
+      },
+      "input_tokens": 0,
+      "method": "item_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 38,
+        "ticks": 732,
+        "tool_calls": 462,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "original",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 38,
+        "declaration_justified": 38,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 810,
+        "tool_calls": 476,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "original",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "original",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "original",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 38,
+        "decision_budget_exhausted": 18
+      },
+      "input_tokens": 0,
+      "method": "item_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 38,
+        "ticks": 732,
+        "tool_calls": 462,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "terminal",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 38,
+        "declaration_justified": 38,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 32,
+        "decision_budget_exhausted": 24
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 32,
+        "ticks": 810,
+        "tool_calls": 476,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "terminal",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 32,
+        "declaration_justified": 32,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 56
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 56,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "terminal",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 56,
+        "declaration_justified": 56,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 56
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 56,
+        "history_exact": 56,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 56,
+        "ticks": 1028,
+        "tool_calls": 452,
+        "total_tokens": 0
+      },
+      "n": 56,
+      "regime": "terminal",
+      "split": "external",
+      "terminal_metrics": {
+        "declaration_correct_now": 56,
+        "declaration_justified": 56,
+        "premature_declaration": 0,
+        "terminal_goal": 56,
+        "terminal_history_exact": 56,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "item_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "expanded",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "expanded",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "expanded",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "expanded",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "item_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "original",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "original",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "original",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "original",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "item_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "terminal",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "query_first_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "terminal",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "verified_mechanism",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "terminal",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    },
+    {
+      "decisions": {
+        "complete": 112
+      },
+      "input_tokens": 0,
+      "method": "wait_rule",
+      "metrics": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "n": 112,
+      "regime": "terminal",
+      "split": "test",
+      "terminal_metrics": {
+        "declaration_correct_now": 112,
+        "declaration_justified": 112,
+        "premature_declaration": 0,
+        "terminal_goal": 112,
+        "terminal_history_exact": 112,
+        "terminal_pending": 0,
+        "unjustified_declaration": 0
+      }
+    }
+  ],
+  "replayed_new": 2576,
+  "requests": 3485,
+  "scope": "Post-review diagnostic, conditional fixed-grammar comparisons; no multiplicity-adjusted confirmatory inference.",
+  "status": "passed"
+}

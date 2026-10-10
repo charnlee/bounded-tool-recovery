@@ -1,0 +1,380 @@
+{
+  "status": "passed",
+  "batch_status": "complete",
+  "n": 1680,
+  "replayed": 1680,
+  "unique_requests": 6546,
+  "summaries": [
+    {
+      "method": "full",
+      "cap": 1024,
+      "n": 336,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 336,
+        "history_exact": 336,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 1466.7348610756453,
+        "model_requests": 1481,
+        "scts": 336,
+        "ticks": 4288,
+        "tool_calls": 1817,
+        "total_tokens": 2254908
+      },
+      "failures": {},
+      "evidence_compute_seconds": 0.28259230963885784
+    },
+    {
+      "method": "organized",
+      "cap": 1024,
+      "n": 336,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 16,
+        "goal": 311,
+        "history_exact": 311,
+        "missing_items": 79,
+        "model_errors": 10,
+        "model_latency_seconds": 1880.0910363690928,
+        "model_requests": 1747,
+        "scts": 299,
+        "ticks": 5289,
+        "tool_calls": 2090,
+        "total_tokens": 2428912
+      },
+      "failures": {
+        "model_error": 10,
+        "complete": 16,
+        "decision_budget_exhausted": 7,
+        "abstain": 4
+      },
+      "evidence_compute_seconds": 0.3598105958662927
+    },
+    {
+      "method": "query_first_rule",
+      "cap": 0,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1132,
+        "tool_calls": 680,
+        "total_tokens": 0
+      },
+      "failures": {},
+      "evidence_compute_seconds": 0.0
+    },
+    {
+      "method": "raw",
+      "cap": 1024,
+      "n": 336,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 4,
+        "goal": 330,
+        "history_exact": 330,
+        "missing_items": 14,
+        "model_errors": 1,
+        "model_latency_seconds": 1864.389102373505,
+        "model_requests": 1805,
+        "scts": 324,
+        "ticks": 5763,
+        "tool_calls": 2144,
+        "total_tokens": 1950588
+      },
+      "failures": {
+        "complete": 4,
+        "model_error": 1,
+        "abstain": 4,
+        "decision_budget_exhausted": 3
+      },
+      "evidence_compute_seconds": 0.21855204761959612
+    },
+    {
+      "method": "timing",
+      "cap": 1024,
+      "n": 336,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 22,
+        "goal": 313,
+        "history_exact": 313,
+        "missing_items": 86,
+        "model_errors": 1,
+        "model_latency_seconds": 1531.6476397139486,
+        "model_requests": 1513,
+        "scts": 313,
+        "ticks": 4638,
+        "tool_calls": 1849,
+        "total_tokens": 2136424
+      },
+      "failures": {
+        "complete": 22,
+        "model_error": 1
+      },
+      "evidence_compute_seconds": 0.2954567188862711
+    },
+    {
+      "method": "verified_mechanism",
+      "cap": 0,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "failures": {},
+      "evidence_compute_seconds": 0.0
+    },
+    {
+      "method": "wait_rule",
+      "cap": 0,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 0,
+        "model_requests": 0,
+        "scts": 112,
+        "ticks": 1300,
+        "tool_calls": 596,
+        "total_tokens": 0
+      },
+      "failures": {},
+      "evidence_compute_seconds": 0.0
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 0.03571428571428571,
+      "ci95": [
+        0.017857142857142856,
+        0.05952380952380952
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 0.017857142857142856,
+      "ci95": [
+        0.008928571428571428,
+        0.02976190476190476
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 905.7142857142857,
+      "ci95": [
+        538.4404761904761,
+        1245.6309523809523
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -0.9732142857142857,
+      "ci95": [
+        -1.1220238095238095,
+        -0.8303571428571428
+      ]
+    },
+    {
+      "left": "organized",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -0.0744047619047619,
+      "ci95": [
+        -0.11011904761904762,
+        -0.03869047619047619
+      ]
+    },
+    {
+      "left": "organized",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -0.05654761904761904,
+      "ci95": [
+        -0.07738095238095238,
+        -0.03571428571428571
+      ]
+    },
+    {
+      "left": "organized",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 1423.5833333333333,
+      "ci95": [
+        1222.5565476190477,
+        1631.0386904761906
+      ]
+    },
+    {
+      "left": "organized",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -0.1607142857142857,
+      "ci95": [
+        -0.25297619047619047,
+        -0.06845238095238095
+      ]
+    },
+    {
+      "left": "timing",
+      "right": "organized",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 0.041666666666666664,
+      "ci95": [
+        0.011904761904761904,
+        0.0744047619047619
+      ]
+    },
+    {
+      "left": "timing",
+      "right": "organized",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 0.005952380952380952,
+      "ci95": [
+        -0.023809523809523808,
+        0.03869047619047619
+      ]
+    },
+    {
+      "left": "timing",
+      "right": "organized",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -870.5,
+      "ci95": [
+        -1005.5416666666666,
+        -723.1994047619047
+      ]
+    },
+    {
+      "left": "timing",
+      "right": "organized",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -0.7172619047619048,
+      "ci95": [
+        -0.8005952380952381,
+        -0.6220238095238095
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 0.06845238095238095,
+      "ci95": [
+        0.026785714285714284,
+        0.11011904761904762
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 0.06845238095238095,
+      "ci95": [
+        0.026785714285714284,
+        0.11011904761904762
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": 352.6309523809524,
+      "ci95": [
+        22.553571428571434,
+        673.9136904761905
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 336,
+      "clusters": 16,
+      "difference": -0.09523809523809525,
+      "ci95": [
+        -0.2767857142857143,
+        0.08630952380952381
+      ]
+    }
+  ],
+  "scope": "Conditional instance-cluster intervals within fixed task grammars; no population or model-generalization claim."
+}

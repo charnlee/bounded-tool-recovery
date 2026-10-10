@@ -1,0 +1,359 @@
+{
+  "status": "passed",
+  "batch_status": "complete",
+  "n": 672,
+  "replayed": 672,
+  "unique_requests": 3433,
+  "summaries": [
+    {
+      "method": "full",
+      "cap": 512,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 502.1335825182032,
+        "model_requests": 544,
+        "scts": 112,
+        "ticks": 1628,
+        "tool_calls": 656,
+        "total_tokens": 825413
+      },
+      "failures": {},
+      "evidence_compute_seconds": 0.06530162016861141
+    },
+    {
+      "method": "full",
+      "cap": 1024,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 0,
+        "goal": 112,
+        "history_exact": 112,
+        "missing_items": 0,
+        "model_errors": 0,
+        "model_latency_seconds": 501.7425224671606,
+        "model_requests": 542,
+        "scts": 112,
+        "ticks": 1644,
+        "tool_calls": 654,
+        "total_tokens": 822230
+      },
+      "failures": {},
+      "evidence_compute_seconds": 0.07553129177540541
+    },
+    {
+      "method": "raw",
+      "cap": 512,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 1,
+        "goal": 109,
+        "history_exact": 109,
+        "missing_items": 6,
+        "model_errors": 2,
+        "model_latency_seconds": 612.432650340721,
+        "model_requests": 638,
+        "scts": 107,
+        "ticks": 2215,
+        "tool_calls": 751,
+        "total_tokens": 688205
+      },
+      "failures": {
+        "decision_budget_exhausted": 1,
+        "model_error": 2,
+        "abstain": 1,
+        "complete": 1
+      },
+      "evidence_compute_seconds": 0.043365627992898226
+    },
+    {
+      "method": "raw",
+      "cap": 1024,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 1,
+        "goal": 109,
+        "history_exact": 109,
+        "missing_items": 8,
+        "model_errors": 2,
+        "model_latency_seconds": 608.9604619252495,
+        "model_requests": 640,
+        "scts": 107,
+        "ticks": 2199,
+        "tool_calls": 752,
+        "total_tokens": 691267
+      },
+      "failures": {
+        "abstain": 2,
+        "model_error": 2,
+        "complete": 1
+      },
+      "evidence_compute_seconds": 0.06748498696833849
+    },
+    {
+      "method": "timing",
+      "cap": 512,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 5,
+        "goal": 107,
+        "history_exact": 107,
+        "missing_items": 18,
+        "model_errors": 0,
+        "model_latency_seconds": 507.86998403421603,
+        "model_requests": 535,
+        "scts": 107,
+        "ticks": 1757,
+        "tool_calls": 647,
+        "total_tokens": 749104
+      },
+      "failures": {
+        "complete": 5
+      },
+      "evidence_compute_seconds": 0.07681167288683355
+    },
+    {
+      "method": "timing",
+      "cap": 1024,
+      "n": 112,
+      "totals": {
+        "duplicate_mutations": 0,
+        "false_completion": 7,
+        "goal": 105,
+        "history_exact": 105,
+        "missing_items": 24,
+        "model_errors": 0,
+        "model_latency_seconds": 501.89741676067933,
+        "model_requests": 534,
+        "scts": 105,
+        "ticks": 1743,
+        "tool_calls": 646,
+        "total_tokens": 747989
+      },
+      "failures": {
+        "complete": 7
+      },
+      "evidence_compute_seconds": 0.061595295555889606
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 512,
+      "metric": "scts",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.04464285714285714,
+      "ci95": [
+        0.017857142857142856,
+        0.07142857142857142
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 512,
+      "metric": "goal",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.026785714285714284,
+      "ci95": [
+        0.017857142857142856,
+        0.03571428571428571
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 512,
+      "metric": "total_tokens",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 1225.0714285714284,
+      "ci95": [
+        1022.7946428571429,
+        1427.3482142857142
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 512,
+      "metric": "tool_calls",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": -0.8482142857142857,
+      "ci95": [
+        -0.9642857142857143,
+        -0.7321428571428571
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 512,
+      "metric": "scts",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.04464285714285714,
+      "ci95": [
+        0.0,
+        0.08928571428571427
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 512,
+      "metric": "goal",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.04464285714285714,
+      "ci95": [
+        0.0,
+        0.08928571428571427
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 512,
+      "metric": "total_tokens",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 681.3303571428571,
+      "ci95": [
+        431.7142857142857,
+        930.1607142857143
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 512,
+      "metric": "tool_calls",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.08035714285714286,
+      "ci95": [
+        -0.08035714285714285,
+        0.23214285714285715
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.04464285714285714,
+      "ci95": [
+        0.026785714285714284,
+        0.0625
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.026785714285714284,
+      "ci95": [
+        0.017857142857142856,
+        0.03571428571428571
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 1169.3125,
+      "ci95": [
+        1061.892857142857,
+        1269.0
+      ]
+    },
+    {
+      "left": "full",
+      "right": "raw",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": -0.875,
+      "ci95": [
+        -0.9107142857142857,
+        -0.8392857142857142
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "scts",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.0625,
+      "ci95": [
+        0.008928571428571428,
+        0.11607142857142856
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "goal",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.0625,
+      "ci95": [
+        0.008928571428571428,
+        0.11607142857142856
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "total_tokens",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 662.8660714285714,
+      "ci95": [
+        381.83035714285717,
+        940.8035714285714
+      ]
+    },
+    {
+      "left": "full",
+      "right": "timing",
+      "cap": 1024,
+      "metric": "tool_calls",
+      "paired_episodes": 112,
+      "clusters": 8,
+      "difference": 0.07142857142857142,
+      "ci95": [
+        -0.10714285714285715,
+        0.24107142857142855
+      ]
+    }
+  ],
+  "scope": "Conditional instance-cluster intervals within fixed task grammars; no population or model-generalization claim."
+}
